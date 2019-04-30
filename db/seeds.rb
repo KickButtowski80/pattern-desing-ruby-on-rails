@@ -5,3 +5,10 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+4.times do 
+    user = User.create first_name: "Izak", last_name: "T"
+end
+
+4.times do 
+    membership = Memebership.create user_id: 1, active: true , name: "memebership name"
+end

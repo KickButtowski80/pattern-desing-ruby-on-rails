@@ -1,0 +1,6 @@
+<%= @user.inspect %>
+<h3>Active</h3>
+<%= @user.find_active.inspect %>
+<%= @user.active_count %>
+
+<%= @user.memeberships.only_active.size%>
